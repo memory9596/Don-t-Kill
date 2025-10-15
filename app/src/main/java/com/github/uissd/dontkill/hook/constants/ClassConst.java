@@ -18,8 +18,11 @@ public final class ClassConst {
     // com.github.uissd.dontkill.hook.hooker.powerkeeper.PowerStateMachineHooker
     public static final String POWER_STATE_MACHINE = "com.miui.powerkeeper.statemachine.PowerStateMachine";
 
-    // com.github.uissd.dontkill.hook.hooker.powerkeeper.SleepModeControllerNewHooker
-    public static final String SLEEP_MODE_CONTROLLER_NEW = "com.miui.powerkeeper.statemachine.SleepModeControllerNew";
+    // com.github.uissd.dontkill.hook.hooker.powerkeeper.PadSleepModeControllerHooker
+    public static final String PAD_SLEEP_MODE_CONTROLLER = "com.miui.powerkeeper.statemachine.PadSleepModeController";
+
+    // com.github.uissd.dontkill.hook.hooker.powerkeeper.PhoneSleepModeControllerHooker
+    public static final String PHONE_SLEEP_MODE_CONTROLLER = "com.miui.powerkeeper.statemachine.PhoneSleepModeController";
 
     // com.github.uissd.dontkill.hook.hooker.android.OomAdjusterHooker
     public static final String OOM_ADJUSTER = "com.android.server.am.OomAdjuster";
