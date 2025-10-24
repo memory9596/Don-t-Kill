@@ -6,10 +6,10 @@ import com.github.uissd.dontkill.hook.hooker.HookParam;
 
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
-public class SleepModeControllerNewHooker extends PowerKeeperLogSupportHooker {
+public class PadSleepModeControllerHooker extends PowerKeeperLogSupportHooker {
 
-    public SleepModeControllerNewHooker(LoadPackageParam loadPackageParam) {
-        super(ClassConst.SLEEP_MODE_CONTROLLER_NEW, loadPackageParam);
+    public PadSleepModeControllerHooker(LoadPackageParam loadPackageParam) {
+        super(ClassConst.PAD_SLEEP_MODE_CONTROLLER, loadPackageParam);
     }
 
     @Override

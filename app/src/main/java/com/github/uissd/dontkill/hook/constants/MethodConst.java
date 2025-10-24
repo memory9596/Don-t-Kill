@@ -23,7 +23,8 @@ public final class MethodConst {
     public static final String CLEAR_APP_WHEN_SCREEN_OFF_TIME_OUT_IN_NIGHT = "clearAppWhenScreenOffTimeOutInNight";
     public static final String CLEAR_APP_WHEN_SCREEN_OFF_TIME_OUT = "clearAppWhenScreenOffTimeOut";
 
-    // com.github.uissd.dontkill.hook.hooker.powerkeeper.SleepModeControllerNewHooker
+    // com.github.uissd.dontkill.hook.hooker.powerkeeper.PadSleepModeControllerHooker
+    // com.github.uissd.dontkill.hook.hooker.powerkeeper.PhoneSleepModeControllerHooker
     public static final String CLEAR_APP = "clearApp";
 
     // com.github.uissd.dontkill.hook.hooker.android.OomAdjusterHooker

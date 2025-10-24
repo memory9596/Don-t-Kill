@@ -34,8 +34,11 @@ public class PowerKeeperHooker implements Hooker {
             PowerStateMachineHooker powerStateMachineHooker = new PowerStateMachineHooker(loadPackageParam);
             boolean success = powerStateMachineHooker.hook();
 
-            SleepModeControllerNewHooker sleepModeControllerNewHooker = new SleepModeControllerNewHooker(loadPackageParam);
-            success &= sleepModeControllerNewHooker.hook();
+            PadSleepModeControllerHooker padSleepModeControllerHooker = new PadSleepModeControllerHooker(loadPackageParam);
+            success &= padSleepModeControllerHooker.hook();
+
+            PhoneSleepModeControllerHooker phoneSleepModeControllerHooker = new PhoneSleepModeControllerHooker(loadPackageParam);
+            success &= phoneSleepModeControllerHooker.hook();
 
             if (success) {
                 logger.i("hook PowerKeeper success");
